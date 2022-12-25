@@ -1,0 +1,39 @@
+/*breadcrumbs */
+
+.breadcrumb {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.breadcrumb .container {
+  max-width: 1110px;
+}
+
+.breadcrumb .container .breadcrumb-list {
+  list-style: none;
+  margin: 0 0 40px 0;
+  padding: 0;
+  color: var(--color-theme);
+}
+
+.breadcrumb .container .breadcrumb-list li {
+  display: inline-block;
+  font-weight: 500;
+  font-family: poppins;
+}
+
+.breadcrumb .container .breadcrumb-list li + li:before {
+  content: "\00a0>\00a0";
+  font-weight: 400;
+  color: var(--btn-dark);
+  font-family: poppins;
+}
+
+.breadcrumb .container .breadcrumb-list a {
+  color: var(--btn-dark);
+  font-family: poppins;
+}
+.breadcrumb .container .breadcrumb-list a:hover {
+  color: var(--color-theme);
+  font-family: poppins;
+}

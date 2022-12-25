@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
-}
+/* HOME*/
+/* General stuff */
+@import "./General.css";
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Navbar */
+@import "./MainMenu/MainMenu.css";
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Showcase */
+@import "./ShowCase/ShowCase.css";
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* Start banner */
+@import "./StartBanner/StartBanner.css";
 
-.App-link {
-  color: #61dafb;
-}
+/* Featured-Products/productgrid */
+@import "./ProductGridToHomeView/ProductGridSection.css";
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+/* Banner two */
+@import "./BannerTwo/BannerTwo.css";
+
+@import "./Specialitys/SpecialitySection.css";
+
+/* Flash sale */
+
+@import "./FlashSale/FlashSale.css";
+
+/* Company Info */
+@import "./CompanyInfo/CompanyInfoSection.css";
+
+
+/*Footer*/
+@import "./Footer/Footer.css";
+
+/* CONTACT VIEW */
+/* Contact section */
+
+@import "./Contact/Map/MapSection.css";
+@import "./Contact/ContactForm/ContactFormSection.css";
+@import "./Contact/Directory/DirectorySection.css";
+
+
+/* off sales*/
+@import "./OffSales/OffSalesSection.css";
+
+
+/* Product view */ 
+@import "./ProductGridToProductView/ProductGridToProductView.css";
+

@@ -1,0 +1,124 @@
+.banner_two .container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  min-width: 1920px;
+  height: 450px;
+}
+.banner_two .container .left {
+  position: relative;
+}
+.banner_two .container .left h1 {
+  position: relative;
+  bottom: 300px;
+  left: 430px;
+  font-family: poppins;
+  color: white;
+  font-size: 50px;
+}
+
+.banner_two .container .left .btn-theme {
+  background-color: var(--btn-dark);
+  position: relative;
+  bottom: 300px;
+  left: 430px;
+  font-size: 20px;
+}
+
+.banner_two .container .left .btn-theme:hover {
+  background-color: var(--btn-hover-light);
+  color: black;
+  position: relative;
+  bottom: 300px;
+  left: 430px;
+  font-size: 20px;
+}
+
+.banner_two .container .left .btn-theme::before,
+.banner_two .container .left .btn-theme::after {
+  position: absolute;
+  content: "";
+  width: 23px;
+  height: 23px;
+  margin: 10px;
+}
+
+.banner_two .container .left .btn-theme:hover::before {
+  left: 0;
+  top: 0;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+}
+
+.banner_two .container .left .btn-theme:hover::after {
+  right: 0;
+  bottom: 0;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.banner_two .container .right {
+  position: relative;
+}
+
+.banner_two .container .right h1 {
+  position: relative;
+  bottom: 300px;
+  left: 60px;
+  font-family: poppins;
+  color: black;
+  font-size: 50px;
+}
+
+.banner_two .container .right .btn-theme {
+  background-color: var(--btn-light);
+  color: black;
+  position: relative;
+  bottom: 300px;
+  left: 60px;
+  font-size: 20px;
+}
+
+.banner_two .container .right .btn-theme:hover {
+  background-color: var(--btn-hover-dark);
+  color: white;
+  position: relative;
+  bottom: 300px;
+  left: 60px;
+  font-size: 20px;
+}
+
+.banner_two .container .right .btn-theme::before,
+.banner_two .container .right .btn-theme::after {
+  position: absolute;
+  content: "";
+  width: 23px;
+  height: 23px;
+  margin: 10px;
+}
+
+.banner_two .container .right .btn-theme::before {
+  left: 0;
+  top: 0;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+}
+.banner_two .container .right .btn-theme:hover::before {
+  left: 0;
+  top: 0;
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+}
+
+.banner_two .container .right .btn-theme::after {
+  right: 0;
+  bottom: 0;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.banner_two .container .right .btn-theme:hover::after {
+  right: 0;
+  bottom: 0;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}

@@ -1,0 +1,100 @@
+      .flash_sale_first h1{
+        display:flex;
+        justify-content: center;
+        font-family: poppins;
+        font-size:24px;
+        
+      }
+      
+      .flash_sale_second .flash_sale,
+      .flash_sale_first .flash_sale{
+        display:flex;
+        /*grid-template-columns:1fr 1fr;*/
+        gap:20px;
+        justify-content: center;
+        
+      }
+      .flash_sale .card{
+        width:255px;
+        border:none;
+      }
+
+      .flash_sale .flash-sale-box{
+        background-color: var(--color-grey);
+        height:750px;
+        flex:1;
+      }
+
+        .flash_sale .flash-sale-box h3{
+          position: relative;
+          color: white;
+          font-family: poppins;
+          font-size:45px;
+          font-weight: bolder;
+          top:320px;
+          left:155px;
+        }
+
+
+      .flash_sale .flash-sale-box  .btn-theme{
+        background-color: var(--btn-light);
+        color:var(--btn-dark);
+        position:relative;
+        top:350px;
+        left:200px;
+        font-size:20px;
+      }
+
+      .flash_sale .flash-sale-box .btn-theme:hover{
+        background-color: var(--btn-dark);
+        color:var(--btn-light);
+        position:relative;
+        top:350px;
+        left:200px;
+        font-size:20px;
+      }
+
+        .flash_sale .flash-sale-box  .btn-theme::before,
+        .flash_sale .flash-sale-box .btn-theme::after{
+          position:absolute;
+          content:'';
+          width:23px;
+          height:23px;
+          margin:10px;
+      }
+  
+        .flash_sale .flash-sale-box .btn-theme::before{
+        left:0;
+        top:0;
+        border-left:2px solid black;
+        border-top:2px solid black;
+    }
+        .flash_sale .flash-sale-box .btn-theme:hover::before{
+          left:0;
+          top:0;
+          border-left:2px solid white;
+          border-top:2px solid white;
+      }
+  
+        .flash_sale .flash-sale-box  .btn-theme::after{
+        right:0;
+        bottom:0;
+        border-right:2px solid black;
+        border-bottom:2px solid black;
+    }
+        .flash_sale .flash-sale-box  .btn-theme:hover::after{
+          right:0;
+          bottom:0;
+          border-right:2px solid white;
+          border-bottom:2px solid white;
+      }
+
+
+.flash_sale .flash_products{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+  justify-content: center;
+  flex:1;      
+
+}

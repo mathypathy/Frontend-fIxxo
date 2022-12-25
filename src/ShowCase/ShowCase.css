@@ -1,0 +1,66 @@
+.showcase_Part {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  background-color: var(--grey);
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+.showcase_Part .showcase_Text h1 {
+  font-family: poppins;
+  position: relative;
+  font-size: 64px;
+  text-align: center;
+  margin: 0;
+}
+
+.showcase_Part .showcase_Text p {
+  color: var(--btn-dark);
+  font-family: poppins;
+}
+
+.showcase_Part .showcase_Text .btn {
+  position: relative;
+  font-family: poppins;
+  background-color: var(--color-theme);
+  color: var(--btn-light);
+  font-size: 18px;
+  width: 200px;
+  height: 60px;
+  border: none;
+}
+
+.showcase_Part .showcase_Text .btn:hover {
+  background-color: var(--btn-dark);
+  color: var();
+  font-size: 18px;
+  width: 200px;
+  height: 60px;
+  border: none;
+}
+
+.showcase_Part .showcase_Text .btn::before,
+.showcase_Part .showcase_Text .btn::after {
+  position: absolute;
+  content: "";
+  width: 23px;
+  height: 23px;
+  margin: 10px;
+}
+
+.showcase_Part .showcase_Text .btn::before {
+  left: 0;
+  top: 0;
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+}
+
+.showcase_Part .showcase_Text .btn::after {
+  right: 0;
+  bottom: 0;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}

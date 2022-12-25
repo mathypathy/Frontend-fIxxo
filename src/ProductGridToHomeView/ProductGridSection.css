@@ -1,0 +1,125 @@
+.container {
+    max-width:1110px;
+}
+    .product_grid .container h1{
+        text-align:center;
+        font-family: poppins;
+        font-size:24px;
+        font-weight: bold;
+    }
+    .card{
+        border:none;
+        width:250px;
+    }
+
+
+     .card .card-img{
+        background-color:var(--color-light-grey);
+        height:265px;
+        width:265px;
+        position:relative;
+        overflow:hidden;
+    }
+    .card .card-img img{
+   
+        height:265px;
+        width:265px;
+        position:relative;
+        overflow:hidden;
+    }
+
+
+   .card .card-img .card-menu{
+        display:none;
+        position:absolute;
+        top:10px ;
+        right:10px ;
+        
+    }
+
+     .card .card-img:hover .card-menu{
+        display:block;
+        position:absolute;
+        top:10px ;
+        right:10px ;
+      
+        
+    }
+
+         .card .card-img .card-menu .menu-link{
+            display:flex;
+            background-color:var(--btn-light);
+            color: var(--btn-dark);
+            text-decoration: none;
+            width:36px;
+            height:36px;
+            margin-bottom:15px;
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+            position:relative;
+            box-shadow: -1px 0px 5px 1px rgba(0,0,0,0.3);
+            border:0;
+            
+            
+        }
+         .card .card-img .card-menu .menu-link:hover{
+            background-color: var(--btn-dark);
+            color:white;
+        }
+
+
+         .card .card-img .btn-theme{
+            font-family: poppins;
+            font-weight:bold;
+            display:none;
+            text-decoration: none;
+            justify-content: center;
+            text-align: center;
+            width:100%;
+            bottom:60px;
+           
+            
+        }
+    
+         .card .card-img:hover .btn-theme{
+            font-family: poppins;
+            font-weight:bold;
+            display:flex;
+            text-decoration: none;
+            justify-content: center;
+            text-align: center;
+            padding:15px;
+            width:100%;
+        }
+
+
+
+
+     .card .card-body{
+        text-align:center;
+    }
+
+     .card .category{
+        text-align:center;
+        font-size:13px;
+        font-weight:500;
+        color:var(--category-grey);
+    }
+
+     .card .title{
+        text-align:center;
+        font-size:16px;
+        font-weight:600;
+    }
+
+     .card .rating{
+        color:var(--color-theme);
+        text-align:center;
+    }
+
+     .card .price{
+        text-align:center;
+        font-size:18px;
+        font-weight:bold;
+    }

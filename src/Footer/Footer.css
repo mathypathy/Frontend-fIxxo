@@ -1,0 +1,37 @@
+/* footer */
+footer {
+    display:flex;
+    justify-content: center;
+    background-color:  var(--color-light-grey);
+    height:70px;
+    border-top: 0.2px solid grey;
+    margin-top:100px;
+    }
+    
+    footer .socialmedia{
+        padding-top:10px;
+        display:inline-block;
+        justify-content: center;
+        left:500px;
+        text-align: center;
+    }
+    
+        footer .socialmedia a{
+           color:black;
+           padding-left:5px;
+           transition: all 0.2s ease-in-out;
+        }
+
+        footer .socialmedia a:hover{
+            color:var(--color-theme);
+            padding-left:5px;
+         }
+    
+    footer .copyright{
+        font-family: poppins;
+        display:inline-block;
+        justify-content: center;
+        text-align: center;
+        left:500px;
+    }
+    
